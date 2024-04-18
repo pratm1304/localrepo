@@ -1,0 +1,54 @@
+body{
+    background-image: url("Bg.jpeg");
+    background-size:cover ;
+}
+h3{
+    text-align: center;
+    font-size:3rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+    width: 7rem;
+    height: 7rem;
+    border: none;
+    margin: 1.5rem;
+    background-color: hsl(180, 16%, 20%);
+    font-size: 70px;
+    border-radius: 3.2rem;
+    cursor:pointer;
+}
+
+.buttons button:hover{
+    background-color:hsl(180, 9%, 11%);
+}
+.buttons button:active{
+    background-color:hsl(42, 60%, 55%);
+}
+
+.points{
+    text-align: left;
+    width: 70%;
+    margin-left: 100px;
+    padding: 2rem;
+    font-size: 1.5rem;
+    height: 5rem;
+ 
+}
+
+#table{
+    background-color: rgba(239, 185, 118, 0.547);
+    text-align: center;
+    width: 50%;
+    margin-inline: auto;
+    padding: 15px;
+    font-size: 1.5rem;
+    border: 2px solid rgb(234, 198, 56);
+    border-radius: 3rem;
+    
+}
